@@ -1,0 +1,16 @@
+{
+  "name": "numi-interior-designer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/css/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "description": ""
+}

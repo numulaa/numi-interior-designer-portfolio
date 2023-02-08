@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("../img/Desain\ tanpa\ judul.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 150% 7%;
+  font-family: "Alumni Sans", sans-serif;
+}
+
+@media (max-width: 773px) {
+  body {
+    background-size: 500px;
+    background-position: -130% 13%;
+  }
+}
+.sec-1 {
+  background-image: url("../img/sec-1.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+}
+/* about section */
+
+/* .overlay {
+  width: 438px;
+  height: 307px;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 30, 26, 0.7) rgba(0, 0, 0, 0) 100%
+    ),
+    url("../img/17 1.png");
+  background-size: cover;
+} */
+.profile-items {
+  background-image: url("../img/Group 2.png");
+
+  background-size: cover;
+}
+/* ~~~~~~~~~~~~~~ services ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.services {
+  background-image: url("../img/services.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* hamburger menu */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.25s;
+}
+.hamburger-middle {
+  transform: translateY(7px);
+}
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
