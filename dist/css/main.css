@@ -612,6 +612,10 @@ video {
   flex-basis: 50%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -837,10 +841,6 @@ body {
 }
 
 @media (max-width: 773px) {
-  body {
-    background-size: 500px;
-    background-position: -130% 13%;
-  }
 }
 
 /* ~~~~~~~~~~~~~~~~~~ carousel ~~~~~~~~~~~~~~~~~~~~ */
@@ -895,7 +895,7 @@ body {
 
 .carousel-btn:hover,
 .carousel-btn:focus {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.8);
   background-color: rgba(0, 0, 0, 0.2);
 }
 
