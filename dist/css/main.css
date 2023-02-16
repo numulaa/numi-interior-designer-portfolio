@@ -521,6 +521,13 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
 .inset-x-\[25\%\] {
   left: 25%;
   right: 25%;
@@ -644,8 +651,8 @@ video {
   justify-content: space-between;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
